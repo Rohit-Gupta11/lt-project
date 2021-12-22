@@ -32,3 +32,14 @@ If you installed Artillery locally for a project, run the following command from
 ```bash
 $(npm bin)/artillery run artillery/(filename).yml
 ```
+
+## Installing Plugins
+If you used npm to install Artillery globally, run:
+```bash
+npm install -g artillery-plugin-metrics-by-endpoint
+```
+
+If you installed Artillery locally for a project, run the following command from the root folder of that project:
+```bash
+npm install artillery-plugin-metrics-by-endpoint
+```
